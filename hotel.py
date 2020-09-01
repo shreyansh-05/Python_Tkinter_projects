@@ -6,7 +6,7 @@ from datetime import date
 from tkinter.font import Font
 from tkinter import messagebox
 import smtplib, ssl
-from PIL import ImageTk, Image
+
 import mysql.connector as mysql
 class Hotel(tk.Frame):
     Accounts={}
@@ -68,6 +68,7 @@ class Hotel(tk.Frame):
         self.exit.grid(row=3,column=1,padx=10,pady=10)
         self.createAcc=tk.Button(self.Wi,text="Enter Customer Details",font=("Comic Sans MS",26),command=self.Create)
         self.createAcc.grid(row=4,column=0,padx=10,pady=10,columnspan=2)
+        
     def checkOut(self):
         self.w=tk.Toplevel(self)
         self.w.title("Check Out")
