@@ -8,11 +8,6 @@ class Railways(tk.Frame):
     Accounts={}
     def __init__(self,master):
         tk.Frame.__init__(self,master)
-        self.grid()
-        self.f=Font(family="Helvetica",size=72,underline=True)
-        self.Acc=Font(family="Calibri",size=10,underline=True)
-        self.Widget1()
-    def Widget1(self):
         self.Usertext=tk.Label(text="USERNAME")
         self.Usertext.grid(row=1,column=0,padx=10,pady=10,columnspan=2)
         self.username=tk.Entry()
