@@ -3,5 +3,5 @@
  <li> Hotel Management System </li>
  <li> Railway Management System </li>
 
-<pre>The data base used is MySQL. </pre>
+<pre>The data base management is done through MySQL. </pre>
  
